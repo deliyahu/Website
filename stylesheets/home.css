@@ -25,7 +25,7 @@ a:hover {
 	width: calc(42px + 15vw);
 	height: calc(42px + 15vw);
 	border-radius: 50%;
-	background-color: white;
+	background-color: black;
 	margin: 2.89vw;
 	align-self: center;
 }

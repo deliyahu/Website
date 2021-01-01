@@ -70,10 +70,6 @@ a {
 	width: calc(24px + 7vw);
 }
 
-.summary-container {
-
-}
-
 .summary-media {
 	display: flex;
 	flex-direction: row;
