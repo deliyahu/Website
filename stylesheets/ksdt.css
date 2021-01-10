@@ -1,0 +1,13 @@
+#ksdtScreenshot-img {
+	width: calc(20vw + 60px);
+	height: calc(8vw + 30px);
+	/*width: 339px;
+	height: 147px;*/
+}
+
+#ksdtScreenshot-vid {
+	width: calc(22.5vw + 60px);
+	height: calc(8.5vw + 30px);
+	/*width: 408px;
+	height: 160px;*/
+}

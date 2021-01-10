@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Recommendation Tool</title>
 <head>
 	<link rel="stylesheet" href="./stylesheets/home.css">
 	<link rel="stylesheet" href="./stylesheets/portfolio.css">
+	<link rel="stylesheet" href="./stylesheets/music.css">
 	<link rel="me-img">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap" rel="stylesheet">
 </head>
@@ -19,13 +22,17 @@
 		<div class="summary">
 			<h1>Music Recommendation Tool</h1>
 			<div class="summary-media">
-				<img id="musicScreenshot1-img" src="./images/musicScreenshot1.png">
-				<img id="musicScreenshot2-img" src="./images/musicScreenshot2.png">
+				<img id="musicScreenshot-img" src="./images/musicScreenshot1.png" alt="Login Page">
+				<img id="musicScreenshot-img" src="./images/musicScreenshot2.png" alt="Recommended Music">
 			</div>
 			<p>
 				In the beginning of 2019, a close friend and I loved talking about music and what songs we listened to at the time. One of the issues we had was discovering new music. The platform I primarily used to listen to music was Spotify, and I read that they had a Spotify Web API for developers to make web applications using user information, so as a personal project I decided to make a web app that recommended music based on what a user listened to.
-				To do this, I had to learn about OAuth and how to ask for a user’s permission to use the application, and then make API calls to give the user music recommendations based on what they listen to on their account. I implemented OAuth in my application using an example from Spotify and making my own version fitted to the application, and I made API calls by using jQuery. The app works by providing the user a list of the artists they listen to the most frequently during the past 6 months of Spotify user activity. For each artist the user listens to, the app would go through similar artists on Spotify and recommend the user one their albums. Once I was finished with the project, I deployed the web application using HerokuApp, and is available on 
+			</p>
+			<p>
+				To do this, I had to learn about OAuth and how to ask for a user’s permission to use the application, and then make API calls to give the user music recommendations based on what they listen to on their account. I implemented OAuth in my application using an example from Spotify and making my own version fitted to the application, and I made API calls by using jQuery. The app works by providing the user a list of the artists they listen to the most frequently during the past 6 months of Spotify user activity. For each artist the user listens to, the app would go through similar artists on Spotify and recommend the user one their albums depending on how popular the artist is. Once I was finished with the project, I deployed the web application using HerokuApp, and is available on 
 				<a href="http://music-recommendation-tool.herokuapp.com/">http://music-recommendation-tool.herokuapp.com/</a>.
+			</p>
+			<p>
 				I loved doing this project because I enjoyed applying my programming skills to one of my hobbies being listening and playing music. Additionally, this project was the first experience I had with JavaScript and jQuery and taught me a lot about what I know now today.
 			</p>
 			<p>

@@ -15,11 +15,11 @@ a {
 }
 
 .experience {
-	background-color: #F0F0F0;
+	background-color: #232323;
 	margin: 5vw;
 	display: flex;
 	flex-flow: row;
-	width: calc(100px + 35.44352vw);
+	width: calc(450px + 12vw);
 	align-self: center;
 	margin-left: 0px;
 	margin-top: 0px;
@@ -52,10 +52,18 @@ a {
 
 .experience-container a {
 	text-decoration: none;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-out;
+	color: #c8c8c8;
 }
 
 .experience-container a:hover {
-	text-decoration: underline;
+	text-decoration: none;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in;
+	color: white;
 }
 
 .experience-img {
@@ -83,32 +91,36 @@ a {
 	flex-direction: column;
 	align-items: center;
 	margin: 5vw;
+	color: #e6e6e6;
 }
 
 .summary h1 {
 	text-align: center;
-	font-size: calc(4px + 4vw);
+	font-size: calc(8px + 3.75vw);
 	font-weight: 300;
 	margin: 2.5vw;
 }
 
 .summary img {
-	width: calc(50px + 20vw);
-	margin-left: calc(0.5px + 0.5vw);
-	margin-right: calc(0.5px + 0.5vw);
+	/*width: calc(50px + 20vw);*/
+	width: 32%;
+	margin: calc(0.5px + 0.5vw);
+	/*margin-right: calc(0.5px + 0.5vw);*/
 }
 
 .summary p {
 	font-size: calc(5px + 1.25vw);
 	font-weight: 300;
-	margin: 2.5vw;
+	margin: calc(5px + 2vw);
+	margin-bottom: 0vw;
 	text-indent: 4vw;
 	padding-left: 10vw;
 	padding-right: 10vw;
 }
 
 .summary video {
-	width: calc(50px + 20vw);
-	margin-left: calc(0.5px + 0.5vw);
-	margin-right: calc(0.5px + 0.5vw);
+	/*width: calc(50px + 20vw);*/
+	width: 100%;
+	margin: calc(0.5px + 0.5vw);
+	/*margin-right: calc(0.5px + 0.5vw);*/
 }
